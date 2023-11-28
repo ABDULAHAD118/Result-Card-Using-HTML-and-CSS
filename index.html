@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UET || Result Check</title>
+    <link rel="stylesheet" href="CSS/result.css">
+    <!-- <link rel="stylesheet" href="CSS/phone.css"> -->
+    <!-- <link rel="stylesheet" href="CSS/Tablet.css"> -->
+    <link rel="shortcut icon" href="Images/UET LOGO.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="color">
+        <img src="Images/UET LOGO.png" alt="UET LOGO" id="logo">
+        <h1 id="uniName" >UNIVERSITY OF ENGINEERING AND TECHNOLOGY LAHORE</h1>
+        <h1 id="uniName1" >UET LAHORE</h1>
+
+    </div>
+    <div class="container">
+        <div class="box">
+            <input type="number" name="" id="search" placeholder="Enter The Roll Number To Search">
+            <button onclick="search()" id="btn">Search</button>
+        </div>
+    </div>
+    <div id="none1">
+        <table class="tbl">
+            <tr class="border">
+                <th id="message" class="border fontSize">
+
+                </th>
+            </tr>
+            <tr class="border">
+                <td id="else" class="border fontSize">
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="none2">
+        <div class="side">
+            <h2 class="left fontSize">Name:</h2>
+            <h3 id="name" class="left fontSize">HY1</h3>
+        </div>
+        <div class="side">
+            <h2 class="left fontSize">Father Name:</h2>
+            <h3 id="fathername" class="left fontSize">HY2</h3>
+        </div>
+        <div class="side">
+            <h2 class="left fontSize">Registration No.:</h2>
+            <h3 id="rollno" class="left fontSize">HY3</h3>
+        </div>
+        <div class="side">
+            <h2 class="left fontSize">Section:</h2>
+            <h3 id="section" class="left fontSize">HY4</h3>
+        </div>
+    </div>
+    <div id="none3">
+        <table class="tbl">
+            <tr class="border">
+                <th id="tr1td1" class="border fontSize">&nbsp;  Sr.No.  &nbsp;</th>
+                <th id="tr1td2" class="border fontSize">Subject Name</th>
+                <th id="tr1td3" class="border fontSize">&nbsp;  Credit Hours  &nbsp;</th>
+                <th id="tr1td4" class="border fontSize">&nbsp;  GP  &nbsp;</th>
+                <th id="tr1td5" class="border fontSize">&nbsp;  Grade  &nbsp;</th>
+                <th id="tr1td6" class="border fontSize">&nbsp;  Status  &nbsp;</th>
+            </tr>
+            <tr>
+                <td id="tr2td1" class="border center fontSize"> 1</td>
+                <td id="tr2td2" class="border fontSize">Fundamental Programming</td>
+                <td id="tr2td3" class="border center fontSize">3</td>
+                <td id="tr2td4" class="border center fontSize"> hy</td>
+                <td id="tr2td5" class="border center fontSize"> hy</td>
+                <td id="tr2td6" class="border center fontSize">&nbsp; Confirm &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="tr3td1" class="border center fontSize"> 2</td>
+                <td id="tr3td2" class="border fontSize">Fundamental Programming LAB</td>
+                <td id="tr3td3" class="border center fontSize">1</td>
+                <td id="tr3td4" class="border center fontSize"> hy</td>
+                <td id="tr3td5" class="border center fontSize"> hy</td>
+                <td id="tr3td6" class="border center fontSize">&nbsp; Confirm &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="tr4td1" class="border center fontSize"> 3 </td>
+                <td id="tr4td2" class="border fontSize">Introduction To Computing</td>
+                <td id="tr4td3" class="border center fontSize">3</td>
+                <td id="tr4td4" class="border center fontSize"> hy</td>
+                <td id="tr4td5" class="border center fontSize"> hy</td>
+                <td id="tr4td6" class="border center fontSize">&nbsp; Confirm &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="tr5td1" class="border center fontSize"> 4 </td>
+                <td id="tr5td2" class="border fontSize">Introduction To Computing LAB</td>
+                <td id="tr5td3" class="border center fontSize">1</td>
+                <td id="tr5td4" class="border center fontSize"> hy</td>
+                <td id="tr5td5" class="border center fontSize"> hy</td>
+                <td id="tr5td6" class="border center fontSize">&nbsp; Confirm &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="tr6td1" class="border center fontSize"> 5 </td>
+                <td id="tr6td2" class="border fontSize">Calculus</td>
+                <td id="tr6td3" class="border center fontSize">3</td>
+                <td id="tr6td4" class="border center fontSize"> hy</td>
+                <td id="tr6td5" class="border center fontSize"> hy</td>
+                <td id="tr6td6" class="border center fontSize">&nbsp; Confirm &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="tr7td1" class="border center fontSize"> 6 </td>
+                <td id="tr7td2" class="border fontSize">Applied Physics</td>
+                <td id="tr7td3" class="border center fontSize">2</td>
+                <td id="tr7td4" class="border center fontSize"> hy</td>
+                <td id="tr7td5" class="border center fontSize"> hy</td>
+                <td id="tr7td6" class="border center fontSize">&nbsp; Confirm &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="tr8td1" class="border center fontSize"> 7 </td>
+                <td id="tr8td2" class="border fontSize">Applied Physics LAB</td>
+                <td id="tr8td3" class="border center fontSize">1</td>
+                <td id="tr8td4" class="border center fontSize"> hy</td>
+                <td id="tr8td5" class="border center fontSize"> hy</td>
+                <td id="tr8td6" class="border center fontSize">&nbsp; Confirm &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="tr9td1" class="border center fontSize"> 8 </td>
+                <td id="tr9td2" class="border fontSize">Functional English</td>
+                <td id="tr9td3" class="border center fontSize">3</td>
+                <td id="tr9td4" class="border center fontSize"> hy</td>
+                <td id="tr9td5" class="border center fontSize"> hy</td>
+                <td id="tr9td6" class="border center fontSize">&nbsp; Confirm &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="tr10td1" class="border center fontSize"> 9 </td>
+                <td id="tr10td2" class="border fontSize">Workshop</td>
+                <td id="tr10td3" class="border center fontSize">1</td>
+                <td id="tr10td4" class="border center fontSize"> hy</td>
+                <td id="tr10td5" class="border center fontSize"> hy</td>
+                <td id="tr10td6" class="border center fontSize">&nbsp; Confirm &nbsp;</td>
+            </tr>
+
+        </table>
+    </div>
+    <footer id="footer">All right are reserved.UET Copyright &copy; 2023</footer>
+    <script src="Javascript/result.js"></script>
+</body>
+
+</html>

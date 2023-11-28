@@ -1,0 +1,20 @@
+@media only screen and (max-width:600px) {
+    #color{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #uniName1{
+        display: block;
+    }
+    #uniName{
+        display:  none;
+    }
+    
+}
+@media only screen and (max-width:1020px) and (min-width:1020px) {
+    #uniName{
+        font-size: 15px;
+        margin: auto;
+    }
+}
